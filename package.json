@@ -10,9 +10,12 @@
     "lint": "eslint --ext js,jsx,ts,tsx",
     "postinstall": "husky install"
   },
+  "lint-staged": {
+    "*": "npm run lint && npm run type-check"
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
