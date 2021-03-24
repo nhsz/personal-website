@@ -8,8 +8,12 @@
     "start": "next start",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "lint": "eslint --ext js,jsx,ts,tsx",
-    "pre-commit": "npm run type-check && npm run lint",
     "postinstall": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
   },
   "dependencies": {
     "next": "10.0.9",

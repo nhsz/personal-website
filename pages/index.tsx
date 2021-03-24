@@ -31,7 +31,7 @@ interface Props {
 }
 
 {
-  y;
+  z;
 }
 
 const IndexPage: NextPage<Props> = ({ launch }) => {
