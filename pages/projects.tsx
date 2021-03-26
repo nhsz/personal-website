@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import { FC } from 'react';
 
-const Projects = () => {
+const Projects: FC = () => {
   return (
     <div className='page-container'>
       <Head>
@@ -8,14 +9,14 @@ const Projects = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <section className='max-w-4xl md:mt-12 text-gray-800'>
-        <h1 className='text-4xl md:text-5xl mb-10 font-semibold'>Projects</h1>
+      <section className='max-w-4xl md:mt-4 text-gray-800'>
+        <h1 className='page-title'>Projects</h1>
 
         <section className='flex justify-center md:justify-start flex-wrap'>
           <a href='https://github.com/nhsz/trello-clone' target='_blank' rel='noopener noreferrer'>
             <div className='project md:w-72 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>trello-clone</h3>
+                <h3 className='project-title'>trello-clone</h3>
 
                 <p className='text-gray-100'>
                   An attempt to mimic the UI and main features of Trello.
@@ -29,7 +30,7 @@ const Projects = () => {
           <a href='https://github.com/nhsz/airbnb-clone' target='_blank' rel='noopener noreferrer'>
             <div className='project md:w-96 h-52 md:h-44 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>airbnb-clone [WIP]</h3>
+                <h3 className='project-title'>airbnb-clone [WIP]</h3>
 
                 <p className='text-gray-100'>
                   Full Stack Project that recreates some of the main features of AirBnB. Not
@@ -51,7 +52,7 @@ const Projects = () => {
           >
             <div className='project md:w-56 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>mentorship</h3>
+                <h3 className='project-title'>mentorship</h3>
 
                 <p className='text-gray-100'>
                   Website for the Full Stack JavaScript mentorship program.
@@ -69,7 +70,7 @@ const Projects = () => {
           >
             <div className='project mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>freeCodeCampBA Conf 2020</h3>
+                <h3 className='project-title'>freeCodeCampBA Conf 2020</h3>
 
                 <p className='text-gray-100'>Website for the freeCodeCampBA Conf 2020.</p>
               </div>
@@ -85,9 +86,9 @@ const Projects = () => {
           >
             <div className='project md:w-56 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>payments-app</h3>
+                <h3 className='project-title'>payments-app</h3>
 
-                <p className='text-gray-100'>Payments client app for the coding bootcamp.</p>
+                <p className='text-gray-100'>Payments client app for the Full Stack course.</p>
               </div>
 
               <p className='text-gray-100 text-xs'>Svelte & TailwindCSS</p>
@@ -101,11 +102,11 @@ const Projects = () => {
           >
             <div className='project md:w-96 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>payments-service</h3>
+                <h3 className='project-title'>payments-service</h3>
 
                 <p className='text-gray-100'>
                   Microservice that generates the proper payment data for MercadoPago checkout, used
-                  on the Payments app.
+                  on the Payments client app.
                 </p>
               </div>
 
@@ -120,7 +121,7 @@ const Projects = () => {
           >
             <div className='project md:w-56 mb-4 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>mail-service</h3>
+                <h3 className='project-title'>mail-service</h3>
 
                 <p className='text-gray-100'>Microservice that notifies a new payment via email.</p>
               </div>
@@ -136,7 +137,7 @@ const Projects = () => {
           >
             <div className='project md:w-56 md:mr-4'>
               <div>
-                <h3 className='text-xl text-white font-bold mb-2'>personal-website</h3>
+                <h3 className='project-title'>personal-website</h3>
 
                 <p className='text-gray-100'>The site you're visiting right now.</p>
               </div>

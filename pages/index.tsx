@@ -1,6 +1,8 @@
 import Head from 'next/head';
+import { FC } from 'react';
+import { Footer } from '../components';
 
-const Home = () => {
+const Home: FC = () => {
   return (
     <div className='page-container'>
       <Head>
@@ -8,10 +10,8 @@ const Home = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='max-w-4xl mt-6 md:mt-12 text-gray-800'>
-        <h1 className='text-4xl md:text-5xl mb-10'>
-          <span className='font-semibold'>Nicolás Quiroz</span>
-        </h1>
+      <main className='max-w-4xl mt-6 md:mt-4 text-gray-800'>
+        <h1 className='page-title'>Nicolás Quiroz</h1>
 
         <section>
           <p className='text-lg md:text-xl mb-6 font-light'>
@@ -24,7 +24,7 @@ const Home = () => {
             <strong className='font-medium keyword-node'>Node</strong>.
           </p>
 
-          <p className='text-lg md:text-xl mb-32 md:mb-16 font-light'>
+          <p className='text-lg md:text-xl mb-16 font-light'>
             I always try to share what I learn and help those who are starting their way in
             programming and web development.
           </p>
@@ -44,8 +44,8 @@ const Home = () => {
                 local chapter co-founder.
               </p>
 
-              <ul className='max-w-4xl'>
-                <li>
+              <section className='max-w-4xl'>
+                <p className='mb-4'>
                   📝 I write{' '}
                   <a
                     className='text-blue-600 hover:underline'
@@ -55,18 +55,19 @@ const Home = () => {
                   >
                     notes
                   </a>{' '}
-                  (in spanish) about JavaScript related concepts.
-                </li>
-                <li>
+                  (in spanish) about Full Stack JavaScript related concepts.
+                </p>
+
+                <p>
                   ☕ Some things I love: coffee, chocolate 🍫, pizza 🍕, ice-cream 🍨,
                   hard-rock/metal music (and playing the guitar 🎸), Daredevil, The Witcher,
                   thrillers, horror movies/series, etc.
-                </li>
-              </ul>
+                </p>
+              </section>
             </section>
 
             <section>
-              <p className='bg-gray-200 p-4 rounded'>
+              <p className='bg-gray-200 p-4 rounded-md'>
                 ✨ If you speak spanish, are learning web development on your own and wanna some
                 help or guidance, check my current{' '}
                 <a
@@ -84,23 +85,7 @@ const Home = () => {
         </section>
       </main>
 
-      <footer>
-        <p className='mt-28 mb-4 text-sm text-left'>
-          {' '}
-          Built with <strong className='keyword-next-sm'>NextJS</strong>,{' '}
-          <strong className='keyword-ts-sm'>TypeScript</strong> &{' '}
-          <strong className='keyword-tailwind-sm'>TailwindCSS</strong> (
-          <a
-            className='nav-item'
-            href='https://github.com/nhsz/personal-website'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <code>src code</code>
-          </a>
-          ).
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 };
