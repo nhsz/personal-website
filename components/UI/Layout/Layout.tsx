@@ -5,12 +5,7 @@ import { Nav } from '../../../components';
 
 const Layout: FC = ({ children }) => {
   const { theme, setTheme } = useTheme();
-  const toggleTheme = () => {
-    console.log({ theme });
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  };
-
-  console.log({ theme });
+  const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
     <div className='dark:bg-gray-900 bg-gray-50 px-6 overflow-hidden border-t-4 dark:border-gray-300 border-gray-800'>
