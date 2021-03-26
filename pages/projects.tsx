@@ -40,7 +40,7 @@ const Projects: FC = () => {
 
               <p className='text-gray-100 text-xs'>
                 React, TypeScript, Chakra UI, GraphQL (client and API), Node, Express, MongoDB,
-                Google's Geocoding API and Stripe.
+                Google&#39;s Geocoding API and Stripe.
               </p>
             </div>
           </a>
@@ -110,7 +110,7 @@ const Projects: FC = () => {
                 </p>
               </div>
 
-              <p className='text-gray-100 text-xs'>Node, Express & MercadoPago's API</p>
+              <p className='text-gray-100 text-xs'>Node, Express & MercadoPago&#39;s API</p>
             </div>
           </a>
 
@@ -126,7 +126,7 @@ const Projects: FC = () => {
                 <p className='text-gray-100'>Microservice that notifies a new payment via email.</p>
               </div>
 
-              <p className='text-gray-100 text-xs'>Node, Express & SendGrid's API</p>
+              <p className='text-gray-100 text-xs'>Node, Express & SendGrid&#39;s API</p>
             </div>
           </a>
 
@@ -139,7 +139,7 @@ const Projects: FC = () => {
               <div>
                 <h3 className='project-title'>personal-website</h3>
 
-                <p className='text-gray-100'>The site you're visiting right now.</p>
+                <p className='text-gray-100'>The site you&#39;re visiting right now.</p>
               </div>
 
               <p className='text-gray-100 text-xs'>NextJS, TypeScript & TailwindCSS</p>

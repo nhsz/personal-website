@@ -15,8 +15,8 @@ const Home: FC = () => {
 
         <section>
           <p className='text-lg md:text-xl mb-6 font-light'>
-            Hi! I'm a <strong className='font-medium'>Full Stack Software Engineer</strong> based in
-            Buenos Aires 🇦🇷, <strong className='font-medium'>mentor</strong> and{' '}
+            Hi! I&#39;m a <strong className='font-medium'>Full Stack Software Engineer</strong>{' '}
+            based in Buenos Aires 🇦🇷, <strong className='font-medium'>mentor</strong> and{' '}
             <strong className='font-medium'>community builder</strong>, specializing in building
             apps with{' '}
             <strong className='font-medium keyword-js dark:text-gray-200'>JavaScript</strong>,{' '}
@@ -33,7 +33,7 @@ const Home: FC = () => {
           <section>
             <section className='mb-10'>
               <p className='mb-4'>
-                Also, I'm a{' '}
+                Also, I&#39;m a{' '}
                 <a
                   className='text-blue-600 hover:underline'
                   href='https://freecodecampba.org/'
@@ -47,7 +47,10 @@ const Home: FC = () => {
 
               <section className='max-w-4xl'>
                 <p className='mb-4'>
-                  📝 I write{' '}
+                  <span role='img' aria-label='writing-emoji'>
+                    📝
+                  </span>{' '}
+                  I write{' '}
                   <a
                     className='text-blue-600 hover:underline'
                     href='https://github.com/undefinedschool/notes'
@@ -60,17 +63,23 @@ const Home: FC = () => {
                 </p>
 
                 <p>
-                  ☕ Some things I love: coffee, chocolate 🍫, pizza 🍕, ice-cream 🍨,
-                  hard-rock/metal music (and playing the guitar 🎸), Daredevil, The Witcher,
-                  thrillers, horror movies/series, etc.
+                  <span role='img' aria-label='coffee-emoji'>
+                    ☕
+                  </span>{' '}
+                  Some things I love: coffee, chocolate 🍫, pizza 🍕, ice-cream 🍨, hard-rock/metal
+                  music (and playing the guitar 🎸), Daredevil, The Witcher, thrillers, horror
+                  movies/series, etc.
                 </p>
               </section>
             </section>
 
             <section>
               <p className='dark:bg-gray-800 bg-gray-200 p-4 rounded-md'>
-                ✨ If you speak spanish, are learning web development on your own and wanna some
-                help or guidance, check my current{' '}
+                <span role='img' aria-label='sparks-emoji'>
+                  ✨
+                </span>{' '}
+                If you speak spanish, are learning web development on your own and wanna some help
+                or guidance, check my current{' '}
                 <a
                   className='text-blue-600 hover:underline'
                   href='https://mentorship.undefinedschool.io/'
