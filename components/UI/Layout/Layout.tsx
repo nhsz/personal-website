@@ -13,7 +13,7 @@ const Layout: FC = ({ children }) => {
   console.log({ theme });
 
   return (
-    <div className='dark:bg-gray-900 bg-gray-50 px-6 h-screen overflow-hidden'>
+    <div className='dark:bg-gray-900 bg-gray-50 px-6 overflow-hidden'>
       <header className='flex justify-between sm:justify-end items-center pt-4 mb-4 md:mb-1 md:max-w-6xl'>
         <Nav />
 
