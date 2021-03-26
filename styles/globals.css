@@ -50,13 +50,13 @@ a {
 
 @layer components {
   .page-container {
-    @apply flex flex-col items-center mt-8 pb-6;
+    @apply flex flex-col items-center mt-8 pb-10;
   }
 }
 
 @layer components {
   .nav-item {
-    @apply text-gray-500 hover:underline hover:text-gray-700 inline;
+    @apply text-gray-500 hover:underline hover:text-gray-700 dark:hover:text-gray-200 inline;
   }
 }
 

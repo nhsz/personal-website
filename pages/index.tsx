@@ -10,7 +10,7 @@ const Home: FC = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='max-w-4xl mt-6 md:mt-4 text-gray-800'>
+      <main className='max-w-4xl mt-6 md:mt-4 dark:text-gray-300 text-gray-800'>
         <h1 className='page-title'>Nicolás Quiroz</h1>
 
         <section>
@@ -18,10 +18,11 @@ const Home: FC = () => {
             Hi! I'm a <strong className='font-medium'>Full Stack Software Engineer</strong> based in
             Buenos Aires 🇦🇷, <strong className='font-medium'>mentor</strong> and{' '}
             <strong className='font-medium'>community builder</strong>, specializing in building
-            apps with <strong className='font-medium keyword-js'>JavaScript</strong>,{' '}
-            <strong className='font-medium keyword-ts'>TypeScript</strong>,{' '}
-            <strong className='font-medium keyword-react'>React</strong> &{' '}
-            <strong className='font-medium keyword-node'>Node</strong>.
+            apps with{' '}
+            <strong className='font-medium keyword-js dark:text-gray-200'>JavaScript</strong>,{' '}
+            <strong className='font-medium keyword-ts dark:text-gray-200'>TypeScript</strong>,{' '}
+            <strong className='font-medium keyword-react dark:text-gray-200'>React</strong> &{' '}
+            <strong className='font-medium keyword-node dark:text-gray-200'>Node</strong>.
           </p>
 
           <p className='text-lg md:text-xl mb-16 font-light'>
@@ -67,7 +68,7 @@ const Home: FC = () => {
             </section>
 
             <section>
-              <p className='bg-gray-200 p-4 rounded-md'>
+              <p className='dark:bg-gray-800 bg-gray-200 p-4 rounded-md'>
                 ✨ If you speak spanish, are learning web development on your own and wanna some
                 help or guidance, check my current{' '}
                 <a
