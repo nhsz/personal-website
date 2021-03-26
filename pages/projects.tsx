@@ -32,7 +32,8 @@ const Projects = () => {
                 <h3 className='text-xl text-white font-bold mb-2'>airbnb-clone [WIP]</h3>
 
                 <p className='text-gray-100'>
-                  Full Stack Project that recreates some of the main features of AirBnB.
+                  Full Stack Project that recreates some of the main features of AirBnB. Not
+                  finished yet.
                 </p>
               </div>
 
@@ -117,7 +118,7 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <div className='project md:w-56 md:mr-4'>
+            <div className='project md:w-56 mb-4 md:mr-4'>
               <div>
                 <h3 className='text-xl text-white font-bold mb-2'>mail-service</h3>
 
@@ -125,6 +126,22 @@ const Projects = () => {
               </div>
 
               <p className='text-gray-100 text-xs'>Node, Express & SendGrid's API</p>
+            </div>
+          </a>
+
+          <a
+            href='https://github.com/undefinedschool/mail-service'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='project md:w-56 md:mr-4'>
+              <div>
+                <h3 className='text-xl text-white font-bold mb-2'>personal-website</h3>
+
+                <p className='text-gray-100'>The site you're visiting right now.</p>
+              </div>
+
+              <p className='text-gray-100 text-xs'>NextJS, TypeScript & TailwindCSS</p>
             </div>
           </a>
         </section>

@@ -14,13 +14,14 @@ const Home = () => {
         </h1>
 
         <section>
-          <p className='text-lg md:text-xl mb-6'>
-            Hi! I'm a <strong>Full Stack Software Engineer</strong> based in Buenos Aires 🇦🇷,{' '}
-            <strong>mentor</strong> and <strong>community builder</strong>, specializing in building
-            apps with <strong className='keyword-js'>JavaScript</strong>,{' '}
-            <strong className='keyword-ts'>TypeScript</strong>,{' '}
-            <strong className='keyword-react'>React</strong> &{' '}
-            <strong className='keyword-node'>Node</strong>.
+          <p className='text-lg md:text-xl mb-6 font-light'>
+            Hi! I'm a <strong className='font-medium'>Full Stack Software Engineer</strong> based in
+            Buenos Aires 🇦🇷, <strong className='font-medium'>mentor</strong> and{' '}
+            <strong className='font-medium'>community builder</strong>, specializing in building
+            apps with <strong className='font-medium keyword-js'>JavaScript</strong>,{' '}
+            <strong className='font-medium keyword-ts'>TypeScript</strong>,{' '}
+            <strong className='font-medium keyword-react'>React</strong> &{' '}
+            <strong className='font-medium keyword-node'>Node</strong>.
           </p>
 
           <p className='text-lg md:text-xl mb-32 md:mb-16 font-light'>
@@ -40,10 +41,10 @@ const Home = () => {
                 >
                   freeCodeCamp
                 </a>{' '}
-                local chapter co-founder/co-organizer.
+                local chapter co-founder.
               </p>
 
-              <ul className='max-w-xl'>
+              <ul className='max-w-4xl'>
                 <li>
                   📝 I write{' '}
                   <a
@@ -54,20 +55,12 @@ const Home = () => {
                   >
                     notes
                   </a>{' '}
-                  (in spanish) about JavaScript related concepts
+                  (in spanish) about JavaScript related concepts.
                 </li>
                 <li>
-                  ☕️ I love coffee: We always need more coffee. If you find useful some of the
-                  content I publish,{' '}
-                  <a
-                    className='text-blue-600 hover:underline'
-                    href='https://cafecito.app/nhsz'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    help me to buy more!
-                  </a>{' '}
-                  🎉
+                  ☕ Some things I love: coffee, chocolate 🍫, pizza 🍕, ice-cream 🍨,
+                  hard-rock/metal music (and playing the guitar 🎸), Daredevil, The Witcher,
+                  thrillers, horror movies/series, etc.
                 </li>
               </ul>
             </section>
