@@ -1,4 +1,5 @@
 import { FC, useEffect, useState } from 'react';
+import { playTone } from '../../utils';
 
 interface Props {
   repoUrl: string;
@@ -6,6 +7,8 @@ interface Props {
   title: string;
   description: string;
   stack: string;
+  tone: string;
+  pianoMode: boolean;
 }
 
 const bgColorsList = [
@@ -24,7 +27,7 @@ const bgColorsList = [
   'bg-blue-700'
 ];
 
-const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
+const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pianoMode }) => {
   const [bgColor, setBgColor] = useState(
     bgColorsList[Math.floor(Math.random() * bgColorsList.length)]
   );
@@ -35,6 +38,10 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
   };
   const paintIndigo: VoidFunction = () => setBgColor('bg-indigo-600');
   const paintGreen: VoidFunction = () => setBgColor('bg-green-500');
+  const handleMouseHover: VoidFunction = () => {
+    paintIndigo();
+    if (pianoMode) playTone(tone);
+  };
 
   useEffect(() => {
     randomizeBg();
@@ -42,7 +49,7 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
 
   return (
     <a href={repoUrl} target='_blank' rel='noopener noreferrer' onClick={paintGreen}>
-      <div className={`project ${bgColor} ${css} mb-4 sm:mr-4`} onMouseEnter={paintIndigo}>
+      <div className={`project ${bgColor} ${css} mb-4 sm:mr-4`} onMouseEnter={handleMouseHover}>
         <div>
           <h3 className='project-title'>{title}</h3>
 
