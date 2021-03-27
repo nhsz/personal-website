@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from 'react';
-import { bgColorsList } from '../../data';
 
 interface Props {
   repoUrl: string;
@@ -8,6 +7,22 @@ interface Props {
   description: string;
   stack: string;
 }
+
+const bgColorsList = [
+  'bg-indigo-400',
+  'bg-indigo-600',
+  'bg-gray-400',
+  'bg-gray-600',
+  'bg-red-400',
+  'bg-green-400',
+  'bg-green-600',
+  'bg-purple-400',
+  'bg-purple-500',
+  'bg-yellow-500',
+  'bg-yellow-600',
+  'bg-blue-500',
+  'bg-blue-700'
+];
 
 const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
   const [bgColor, setBgColor] = useState(
@@ -27,7 +42,7 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
 
   return (
     <a href={repoUrl} target='_blank' rel='noopener noreferrer' onClick={paintGreen}>
-      <div className={`project ${bgColor} ${css}`} onMouseEnter={paintIndigo}>
+      <div className={`project ${bgColor} ${css} mb-4 sm:mr-4`} onMouseEnter={paintIndigo}>
         <div>
           <h3 className='project-title'>{title}</h3>
 

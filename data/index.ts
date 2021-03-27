@@ -1,2 +1,2 @@
-export * from './bgColorsList';
-export * from './projectsList';
+export * from './bgColors';
+export * from './projects';

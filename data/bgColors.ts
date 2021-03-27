@@ -1,4 +1,4 @@
-export const bgColorsList = [
+export const bgColors = [
   'bg-indigo-400',
   'bg-indigo-600',
   'bg-gray-400',

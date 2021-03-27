@@ -1,7 +1,18 @@
 import Head from 'next/head';
 import { FC } from 'react';
 import { Project } from '../components';
-import { projectsList as projects } from '../data';
+import { projects as projectsData } from '../data';
+
+const tilesExtraStyle = [
+  'md:w-72',
+  'md:w-96',
+  'md:w-56',
+  '',
+  'md:w-56',
+  'md:w-96',
+  'md:w-56',
+  'md:w-56'
+];
 
 const Projects: FC = () => {
   return (
@@ -15,8 +26,8 @@ const Projects: FC = () => {
         <h1 className='page-title'>Projects</h1>
 
         <section className='flex justify-center md:justify-start flex-wrap'>
-          {projects.map(props => (
-            <Project key={props.repoUrl} {...props} />
+          {projectsData.map((props, i) => (
+            <Project key={props.repoUrl} {...props} css={tilesExtraStyle[i]} />
           ))}
         </section>
       </section>
