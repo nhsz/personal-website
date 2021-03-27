@@ -48,6 +48,12 @@ a {
   text-decoration: underline 4px #43853d;
 }
 
+@layer base {
+  body {
+    @apply dark:bg-gray-900 bg-gray-50;
+  }
+}
+
 @layer components {
   .page-container {
     @apply flex flex-col items-center mt-8 pb-10;
@@ -80,6 +86,6 @@ a {
 
 @layer components {
   .layout {
-    @apply dark:bg-gray-900 bg-gray-50 px-6 overflow-hidden border-t-4 dark:border-gray-300 border-gray-800;
+    @apply px-6 overflow-hidden border-t-4 dark:border-gray-300 border-gray-800;
   }
 }
