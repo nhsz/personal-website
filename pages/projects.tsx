@@ -22,124 +22,64 @@ const Projects: FC = () => {
             stack='React, TypeScript & styled-components'
           />
 
-          <a href='https://github.com/nhsz/airbnb-clone' target='_blank' rel='noopener noreferrer'>
-            <div className='project md:w-96 h-52 md:h-44 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>airbnb-clone [WIP]</h3>
+          <Project
+            repoUrl='https://github.com/nhsz/airbnb-clone'
+            css='md:w-96 h-52 md:h-44 mb-4 md:mr-4'
+            title='airbnb-clone [WIP]'
+            description='Full Stack Project that recreates some of the main features of AirBnB. Not
+            finished yet.'
+            stack='React, TypeScript, Chakra UI, GraphQL (client and API), Node, Express, MongoDB,
+            Google&#39;s Geocoding API and Stripe.'
+          />
 
-                <p className='text-gray-100'>
-                  Full Stack Project that recreates some of the main features of AirBnB. Not
-                  finished yet.
-                </p>
-              </div>
+          <Project
+            repoUrl='https://github.com/undefinedschool/mentorship'
+            css='md:w-56 mb-4 md:mr-4'
+            title='mentorship'
+            description='Website for the Full Stack JavaScript mentorship program.'
+            stack='HTML5 & TailwindCSS'
+          />
 
-              <p className='text-gray-100 text-xs'>
-                React, TypeScript, Chakra UI, GraphQL (client and API), Node, Express, MongoDB,
-                Google&#39;s Geocoding API and Stripe.
-              </p>
-            </div>
-          </a>
+          <Project
+            repoUrl='https://github.com/FreeCodeCampBA/conf2020'
+            css='mb-4 md:mr-4'
+            title='freeCodeCampBA Conf 2020'
+            description='Website for the freeCodeCampBA Conf 2020.'
+            stack='HTML5 & TailwindCSS'
+          />
 
-          <a
-            href='https://github.com/undefinedschool/mentorship'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project md:w-56 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>mentorship</h3>
+          <Project
+            repoUrl='https://github.com/undefinedschool/payments-app'
+            css='md:w-56 mb-4 md:mr-4'
+            title='payments-app'
+            description='Payments client app for the Full Stack course.'
+            stack='Svelte & TailwindCSS'
+          />
 
-                <p className='text-gray-100'>
-                  Website for the Full Stack JavaScript mentorship program.
-                </p>
-              </div>
+          <Project
+            repoUrl='https://github.com/undefinedschool/payments-service'
+            css='md:w-96 mb-4 md:mr-4'
+            title='payments-service'
+            description='Microservice that generates the proper payment data for MercadoPago checkout, used
+            on the Payments client app.'
+            stack='Node, Express & MercadoPago&#39;s API'
+          />
 
-              <p className='text-gray-100 text-xs'>HTML5 & TailwindCSS</p>
-            </div>
-          </a>
+          <Project
+            repoUrl='https://github.com/undefinedschool/mail-service'
+            css='md:w-56 mb-4 md:mr-4'
+            title='mail-service'
+            description='Microservice that notifies a new payment via email.'
+            stack='Node, Express & SendGrid&#39;s API'
+          />
 
-          <a
-            href='https://github.com/FreeCodeCampBA/conf2020'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>freeCodeCampBA Conf 2020</h3>
-
-                <p className='text-gray-100'>Website for the freeCodeCampBA Conf 2020.</p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>HTML5 & TailwindCSS</p>
-            </div>
-          </a>
-
-          <a
-            href='https://github.com/undefinedschool/payments-app'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project md:w-56 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>payments-app</h3>
-
-                <p className='text-gray-100'>Payments client app for the Full Stack course.</p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>Svelte & TailwindCSS</p>
-            </div>
-          </a>
-
-          <a
-            href='https://github.com/undefinedschool/payments-service'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project md:w-96 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>payments-service</h3>
-
-                <p className='text-gray-100'>
-                  Microservice that generates the proper payment data for MercadoPago checkout, used
-                  on the Payments client app.
-                </p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>Node, Express & MercadoPago&#39;s API</p>
-            </div>
-          </a>
-
-          <a
-            href='https://github.com/undefinedschool/mail-service'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project md:w-56 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>mail-service</h3>
-
-                <p className='text-gray-100'>Microservice that notifies a new payment via email.</p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>Node, Express & SendGrid&#39;s API</p>
-            </div>
-          </a>
-
-          <a
-            href='https://github.com/undefinedschool/mail-service'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <div className='project md:w-56 md:mr-4'>
-              <div>
-                <h3 className='project-title'>personal-website</h3>
-
-                <p className='text-gray-100'>The site you&#39;re visiting right now.</p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>NextJS, TypeScript & TailwindCSS</p>
-            </div>
-          </a>
+          <Project
+            repoUrl='https://github.com/nhsz/personal-website'
+            css='md:w-56 md:mr-4'
+            title='personal-website'
+            description='The site you&#39;re visiting right now.'
+            stack='NextJS, TypeScript & TailwindCSS'
+          />
         </section>
       </section>
     </div>

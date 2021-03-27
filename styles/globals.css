@@ -74,6 +74,12 @@ a {
 
 @layer components {
   .page-title {
-    @apply text-4xl md:text-5xl mb-10 font-semibold;
+    @apply text-4xl md:text-5xl mb-10 tracking-tight font-bold;
+  }
+}
+
+@layer components {
+  .layout {
+    @apply dark:bg-gray-900 bg-gray-50 px-6 overflow-hidden border-t-4 dark:border-gray-300 border-gray-800;
   }
 }
