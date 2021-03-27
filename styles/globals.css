@@ -86,6 +86,6 @@ a {
 
 @layer components {
   .layout {
-    @apply px-6 overflow-hidden border-t-4 dark:border-gray-300 border-gray-800;
+    @apply px-6 overflow-hidden;
   }
 }

@@ -1,4 +1,5 @@
 import { FC, useEffect, useState } from 'react';
+import { bgColorsList } from '../../utils';
 
 interface Props {
   repoUrl: string;
@@ -8,27 +9,13 @@ interface Props {
   stack: string;
 }
 
-const colors = [
-  'bg-indigo-400',
-  'bg-indigo-600',
-  'bg-gray-400',
-  'bg-gray-600',
-  'bg-red-400',
-  'bg-green-400',
-  'bg-green-600',
-  'bg-purple-400',
-  'bg-purple-500',
-  'bg-yellow-500',
-  'bg-yellow-600',
-  'bg-blue-500',
-  'bg-blue-700'
-];
-
 const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
-  const [bgColor, setBgColor] = useState(colors[Math.floor(Math.random() * colors.length)]);
+  const [bgColor, setBgColor] = useState(
+    bgColorsList[Math.floor(Math.random() * bgColorsList.length)]
+  );
 
   const randomizeBg: VoidFunction = () => {
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    const randomColor = bgColorsList[Math.floor(Math.random() * bgColorsList.length)];
     setBgColor(randomColor);
   };
   const paintIndigo: VoidFunction = () => setBgColor('bg-indigo-600');

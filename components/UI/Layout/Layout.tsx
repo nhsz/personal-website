@@ -8,8 +8,8 @@ const Layout: FC = ({ children }) => {
   const toggleTheme: VoidFunction = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
-    <div className='layout'>
-      <header className='flex justify-between sm:justify-end items-center pt-3 mb-4 md:mb-1'>
+    <div className='layout relative'>
+      <header className='fixed top-0 left-0 w-full flex justify-center items-center py-3 bg-gray-50 dark:bg-gray-900 border-t-4 dark:border-gray-300 border-gray-800'>
         <Nav />
 
         {theme === 'dark' ? (

@@ -10,7 +10,7 @@ const Home: FC = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='max-w-4xl mt-6 md:mt-4 dark:text-gray-300 text-gray-800'>
+      <main className='max-w-4xl mt-16 dark:text-gray-300 text-gray-800'>
         <h1 className='page-title'>Nicolás Quiroz</h1>
 
         <section>

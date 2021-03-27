@@ -11,7 +11,7 @@ const ToggleSwitch: FC<Props> = ({ ariaLabel, css, handleClick, children }) => {
     <button
       aria-label={ariaLabel}
       type='button'
-      className={`${css} border-none p-2 rounded-md lg:mr-28 xl:mr-60`}
+      className={`${css} border-none p-2 rounded-md`}
       onClick={handleClick}
     >
       {children}
