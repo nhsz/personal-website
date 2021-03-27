@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { FC } from 'react';
+import { Project } from '../components';
 
 const Projects: FC = () => {
   return (
@@ -13,19 +14,13 @@ const Projects: FC = () => {
         <h1 className='page-title'>Projects</h1>
 
         <section className='flex justify-center md:justify-start flex-wrap'>
-          <a href='https://github.com/nhsz/trello-clone' target='_blank' rel='noopener noreferrer'>
-            <div className='project md:w-72 mb-4 md:mr-4'>
-              <div>
-                <h3 className='project-title'>trello-clone</h3>
-
-                <p className='text-gray-100'>
-                  An attempt to mimic the UI and main features of Trello.
-                </p>
-              </div>
-
-              <p className='text-gray-100 text-xs'>React, TypeScript & styled-components</p>
-            </div>
-          </a>
+          <Project
+            repoUrl='https://github.com/nhsz/trello-clone'
+            css='md:w-72 mb-4 md:mr-4'
+            title='trello-clone'
+            description='An attempt to mimic the UI and main features of Trello.'
+            stack='React, TypeScript & styled-components'
+          />
 
           <a href='https://github.com/nhsz/airbnb-clone' target='_blank' rel='noopener noreferrer'>
             <div className='project md:w-96 h-52 md:h-44 mb-4 md:mr-4'>
