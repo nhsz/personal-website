@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { FC } from 'react';
 import { Project } from '../components';
-import { projectsList as projects } from '../utils';
+import { projectsList as projects } from '../data';
 
 const Projects: FC = () => {
   return (

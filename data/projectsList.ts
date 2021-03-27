@@ -10,8 +10,7 @@ export const projectsList = [
     repoUrl: 'https://github.com/nhsz/airbnb-clone',
     css: 'md:w-96 h-52 md:h-44 mb-4 sm:mr-4',
     title: 'airbnb-clone [WIP]',
-    description:
-      'Full Stack Project that recreates some of the main features of AirBnB. Not finished yet.',
+    description: 'App that recreates some of the main features of AirBnB. Not finished yet.',
     stack:
       "React, TypeScript, Chakra UI, GraphQL (client and API), Node, Express, MongoDB, Google's Geocoding API and Stripe."
   },

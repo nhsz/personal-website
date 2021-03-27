@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { bgColorsList } from '../../utils';
+import { bgColorsList } from '../../data';
 
 interface Props {
   repoUrl: string;
