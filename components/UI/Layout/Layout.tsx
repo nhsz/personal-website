@@ -9,7 +9,7 @@ const Layout: FC = ({ children }) => {
 
   return (
     <div className='layout relative'>
-      <header className='fixed top-0 left-0 w-full flex justify-center items-center py-3 bg-gray-50 dark:bg-gray-900 border-t-4 dark:border-gray-300 border-gray-800'>
+      <header className='fixed top-0 left-0 w-full flex justify-center items-center py-3 border-t-4 dark:border-gray-300 border-gray-800'>
         <Nav />
 
         {theme === 'dark' ? (
