@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = () => {
   return (
-    <footer>
+    <footer className='transition duration-75'>
       <p className='mt-24 text-xs sm:text-sm text-left dark:text-gray-300'>
         {' '}
         Built with <span className='keyword-next-sm dark:text-gray-200 font-semibold'>

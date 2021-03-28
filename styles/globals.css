@@ -50,7 +50,7 @@ a {
 
 @layer base {
   body {
-    @apply dark:bg-gray-900 bg-gray-50 transition duration-100;
+    @apply dark:bg-gray-900 bg-gray-50 transition duration-200;
   }
 }
 
@@ -80,7 +80,7 @@ a {
 
 @layer components {
   .page-title {
-    @apply text-4xl md:text-5xl mb-10 tracking-tight font-bold;
+    @apply text-4xl md:text-5xl mb-10 tracking-tight font-extrabold;
   }
 }
 

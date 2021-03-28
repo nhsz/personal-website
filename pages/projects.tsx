@@ -28,8 +28,9 @@ const Projects: FC = () => {
     // attach listener on component mount
     document.addEventListener('keydown', (handleKeyPress as unknown) as EventListener);
     // detach listener on component unmount
-    return () =>
+    return () => {
       document.removeEventListener('keydown', (handleKeyPress as unknown) as EventListener);
+    };
   }, []);
 
   return (
@@ -46,8 +47,8 @@ const Projects: FC = () => {
           {isBrowser && (
             <span className='text-sm mt-6 mr-8'>
               {pianoMode
-                ? `(now hover over the tiles 🎶. Press 's' to stop it.)`
-                : `press 'm' for piano mode 🎹`}
+                ? `Hover over the tiles 🎶. Press 's' to stop it.`
+                : `Press 'm' for piano mode 🎹`}
             </span>
           )}
         </div>
