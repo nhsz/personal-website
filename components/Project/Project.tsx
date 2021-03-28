@@ -53,7 +53,7 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pia
         <div>
           <h3 className='project-title'>{title}</h3>
 
-          <p className='text-gray-100'>{description}</p>
+          <p className='text-gray-100 text-sm'>{description}</p>
         </div>
 
         <p className='text-gray-100 text-xs'>{stack}</p>

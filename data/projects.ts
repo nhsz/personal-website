@@ -12,7 +12,7 @@ export const projects: ProjectData[] = [
     title: 'airbnb-clone [WIP]',
     description: 'App that recreates some of the main features of AirBnB. Not finished yet.',
     stack:
-      "React, TypeScript, Chakra UI, GraphQL (client and API), Node, Express, MongoDB, Google's Geocoding API and Stripe."
+      "React, TypeScript, Chakra UI, GraphQL (client/API), Node, Express, MongoDB, Google's Geocoding API and Stripe."
   },
   {
     repoUrl: 'https://github.com/undefinedschool/mentorship',
@@ -23,13 +23,13 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/FreeCodeCampBA/conf2020',
     title: 'freeCodeCampBA Conf 2020',
-    description: 'Website for the freeCodeCampBA Conf 2020.',
+    description: 'Website for the freeCodeCampBA Conf 2020 schedule.',
     stack: 'HTML5 & TailwindCSS'
   },
   {
     repoUrl: 'https://github.com/undefinedschool/payments-app',
     title: 'payments-app',
-    description: 'Payments client app for the Full Stack course.',
+    description: 'Payments client app for the Full Stack JavaScript course.',
     stack: 'Svelte & TailwindCSS'
   },
   {
@@ -48,7 +48,7 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/nhsz/personal-website',
     title: 'personal-website',
-    description: "The site you're visiting right now.",
+    description: "My personal website, which you're visiting right now.",
     stack: 'NextJS, TypeScript & TailwindCSS'
   }
 ];
