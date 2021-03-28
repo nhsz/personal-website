@@ -9,9 +9,9 @@ const Layout: FC = ({ children }) => {
   const toggleTheme: VoidFunction = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
-    <div className='layout relative'>
+    <div className='layout relative md:h-screen'>
       <header
-        className='fixed top-0 left-0 w-full flex justify-center items-center py-3 bg-gray-50 dark:bg-gray-900 transition duration-200 border-t-4 dark:border-gray-300 border-gray-800 z-10 shadow-sm'
+        className='header left-0 w-full flex justify-center items-center'
         style={{
           opacity: 0.85,
           backdropFilter: 'saturate(180%) blur(20px)'

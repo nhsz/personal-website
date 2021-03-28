@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { FC, KeyboardEvent, useEffect, useState } from 'react';
-import { isBrowser } from 'react-device-detect';
 import { Project } from '../components';
 import { projects as projectsData } from '../data';
 import { getRandomTone } from '../utils';
@@ -44,13 +43,13 @@ const Projects: FC = () => {
         <div className='flex justify-between'>
           <h1 className='page-title'>Projects</h1>
 
-          {isBrowser && (
+          <div className='hidden md:block'>
             <span className='text-sm mt-6 mr-8'>
               {pianoMode
                 ? `Hover over the tiles 🎶. Press 's' to stop it.`
                 : `Press 'm' for piano mode 🎹`}
             </span>
-          )}
+          </div>
         </div>
 
         <section className='flex justify-center md:justify-start flex-wrap'>
