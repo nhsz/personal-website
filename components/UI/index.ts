@@ -1,3 +1,4 @@
+export * from './FlatMountainsBackground';
 export * from './Footer';
 export * from './Layout';
 export * from './MentorshipBanner';

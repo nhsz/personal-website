@@ -56,7 +56,7 @@ a {
 
 @layer components {
   .page-container {
-    @apply flex flex-col items-center mt-8 pb-10;
+    @apply flex flex-col items-center mt-8 pb-12;
   }
 }
 

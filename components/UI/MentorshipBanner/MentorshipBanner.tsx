@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const MentorshipBanner: FC = () => {
   return (
-    <section className='transition duration-100'>
+    <section className='transition duration-100 shadow-sm opacity-80'>
       <p className='dark:bg-gray-800 bg-gray-200 p-4 rounded-md'>
         <span role='img' aria-label='sparks-emoji'>
           ✨
