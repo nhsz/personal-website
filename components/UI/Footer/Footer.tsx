@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 const Footer: FC = () => {
   return (
-    <footer className='transition duration-75'>
+    <footer className='transition duration-75 absolute bottom-8'>
       <p
-        className='mt-24 text-xs sm:text-sm text-left dark:text-gray-300'
+        className='text-xs sm:text-sm text-left dark:text-gray-300'
         style={{
           textShadow: '2px 2px 2px rgba(0, 0, 0, 0.1)'
         }}

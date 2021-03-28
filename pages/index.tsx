@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { FC } from 'react';
-import { Footer, MentorshipBanner, MiniBio, RandomDetails } from '../components';
+import { MentorshipBanner, MiniBio, RandomDetails } from '../components';
 
 const Home: FC = () => {
   return (
@@ -20,7 +20,7 @@ const Home: FC = () => {
         </section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

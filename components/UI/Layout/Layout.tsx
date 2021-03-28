@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes';
 import { FC } from 'react';
 import { HiMoon, HiSun } from 'react-icons/hi';
-import { Nav, ToggleSwitch } from '../../../components';
+import { Footer, Nav, ToggleSwitch } from '../../../components';
 import { FlatMountainsBackground } from '../FlatMountainsBackground';
 
 const Layout: FC = ({ children }) => {
@@ -33,6 +33,10 @@ const Layout: FC = ({ children }) => {
       {children}
 
       <FlatMountainsBackground />
+
+      <div className='flex justify-center mt-24'>
+        <Footer />
+      </div>
     </div>
   );
 };
