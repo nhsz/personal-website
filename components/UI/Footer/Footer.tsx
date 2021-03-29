@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = () => {
   return (
-    <footer className='transition duration-75 absolute bottom-8'>
+    <footer className='transition duration-75 absolute bottom-8 lg:bottom-6'>
       <p
         className='text-xs sm:text-sm text-left dark:text-gray-300'
         style={{

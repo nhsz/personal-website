@@ -19,8 +19,6 @@ const Home: FC = () => {
           <MentorshipBanner />
         </section>
       </main>
-
-      {/* <Footer /> */}
     </div>
   );
 };

@@ -56,7 +56,7 @@ a {
 
 @layer components {
   .page-container {
-    @apply flex flex-col items-center mt-8 pb-12;
+    @apply flex flex-col items-center mt-12 mb-4;
   }
 }
 
@@ -68,7 +68,7 @@ a {
 
 @layer components {
   .project {
-    @apply flex flex-col justify-between bg-indigo-600  hover:bg-pink-600 transition duration-300 ease-in-out rounded-md p-4 shadow-md w-auto h-44;
+    @apply flex flex-col justify-between bg-indigo-600  hover:bg-pink-600 transition duration-300 ease-in-out rounded-md p-4 shadow-md w-auto h-44 lg:h-40;
   }
 }
 

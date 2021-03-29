@@ -33,7 +33,7 @@ const Projects: FC = () => {
   }, []);
 
   return (
-    <div className='page-container pb-9'>
+    <div className='page-container'>
       <Head>
         <title>Nicolás Quiroz | Projects</title>
         <link rel='icon' href='/favicon.ico' />
