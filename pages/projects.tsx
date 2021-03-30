@@ -5,12 +5,12 @@ import { projects as projectsData } from '../data';
 import { getRandomTone } from '../utils';
 
 const tilesExtraStyle = [
-  'sm:w-72',
-  'sm:w-96',
+  'sm:w-56 md:w-72',
+  'sm:w-80 md:w-96',
+  'sm:w-52',
+  'sm:w-72 md:w-80',
   'sm:w-56',
-  'sm:w-80',
-  'sm:w-56',
-  'sm:w-96',
+  'sm:w-80 md:w-96',
   'sm:w-56',
   'sm:w-56'
 ];
