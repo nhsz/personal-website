@@ -12,7 +12,7 @@ export const projects: ProjectData[] = [
     title: 'airbnb-clone [WIP]',
     description: 'App that recreates some of the main features of AirBnB. Not finished yet.',
     stack:
-      "React, TypeScript, Chakra UI, GraphQL (client/API), Node, Express, MongoDB, Google's Geocoding API and Stripe."
+      "React, TypeScript, Chakra UI, GraphQL (client/API), Node, Express, MongoDB, Google's Geocoding API & Stripe."
   },
   {
     repoUrl: 'https://github.com/undefinedschool/mentorship',

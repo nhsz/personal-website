@@ -5,14 +5,14 @@ import { projects as projectsData } from '../data';
 import { getRandomTone } from '../utils';
 
 const tilesExtraStyle = [
-  'md:w-72',
-  'md:w-96',
-  'md:w-56',
-  '',
-  'md:w-56',
-  'md:w-96',
-  'md:w-56',
-  'md:w-56'
+  'sm:w-72',
+  'sm:w-96',
+  'sm:w-56',
+  'sm:w-80',
+  'sm:w-56',
+  'sm:w-96',
+  'sm:w-56',
+  'sm:w-56'
 ];
 
 const Projects: FC = () => {
@@ -52,7 +52,7 @@ const Projects: FC = () => {
           </div>
         </div>
 
-        <section className='flex justify-center md:justify-start flex-wrap'>
+        <section className='flex justify-center sm:justify-start flex-wrap'>
           {projectsData.map((props, i) => (
             <Project
               key={props.repoUrl}
