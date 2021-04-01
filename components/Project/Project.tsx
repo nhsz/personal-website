@@ -49,7 +49,7 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pia
 
   return (
     <a href={repoUrl} target='_blank' rel='noopener noreferrer' onClick={paintGreen}>
-      <div className={`project ${bgColor} ${css} mb-4 sm:mr-4`} onMouseEnter={handleMouseHover}>
+      <article className={`project ${bgColor} ${css} mb-4 sm:mr-4`} onMouseEnter={handleMouseHover}>
         <div>
           <h3 className='project-title'>{title}</h3>
 
@@ -57,7 +57,7 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pia
         </div>
 
         <p className='text-gray-100 text-xs'>{stack}</p>
-      </div>
+      </article>
     </a>
   );
 };
