@@ -12,7 +12,7 @@ export const projects: ProjectData[] = [
     title: 'airbnb-clone [WIP]',
     description: 'App that recreates some of the main features of AirBnB. Not finished yet.',
     stack:
-      "React, TypeScript, Chakra UI, GraphQL (client/API), Node, Express, MongoDB, Google's Geocoding API & Stripe."
+      "React, TypeScript, ChakraUI, GraphQL, Node, Express, MongoDB, Google's Geocoding API & Stripe."
   },
   {
     repoUrl: 'https://github.com/undefinedschool/mentorship',
@@ -50,5 +50,17 @@ export const projects: ProjectData[] = [
     title: 'personal-website',
     description: "My personal website, which you're visiting right now.",
     stack: 'NextJS, TypeScript & TailwindCSS'
+  },
+  {
+    repoUrl: 'https://www.npmjs.com/package/list-range',
+    title: 'list-range',
+    description: 'ES6 implementation of Python built-in `range()` function.',
+    stack: 'JavaScript'
+  },
+  {
+    repoUrl: 'https://www.npmjs.com/package/char',
+    title: 'char',
+    description: 'ES6 implementation of Python built-in `chr()` function.',
+    stack: 'JavaScript'
   }
 ];

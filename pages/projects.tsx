@@ -5,14 +5,16 @@ import { projects as projectsData } from '../data';
 import { getRandomTone } from '../utils';
 
 const tilesExtraStyle = [
-  'sm:w-56 md:w-72',
+  'sm:w-56 md:w-64',
   'sm:w-80 md:w-96',
   'sm:w-52',
-  'sm:w-72 md:w-80',
+  'sm:w-72',
+  'sm:w-52',
+  'sm:w-80',
   'sm:w-56',
-  'sm:w-80 md:w-96',
   'sm:w-56',
-  'sm:w-56'
+  'sm:w-48',
+  'sm:w-48'
 ];
 
 const Projects: FC = () => {
@@ -43,13 +45,13 @@ const Projects: FC = () => {
         <div className='flex justify-between'>
           <h1 className='page-title'>Projects</h1>
 
-          <div className='hidden md:block'>
+          {/* <div className='hidden md:block'>
             <span className='text-sm mt-6 mr-8'>
               {pianoMode
                 ? `Hover over the tiles 🎶. Press 's' to stop it.`
                 : `Press 'm' for piano mode 🎹`}
             </span>
-          </div>
+          </div> */}
         </div>
 
         <section className='flex justify-center sm:justify-start flex-wrap'>

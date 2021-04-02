@@ -13,7 +13,7 @@ const Layout: FC = ({ children }) => {
       <header
         className='header left-0 w-full flex justify-center items-center'
         style={{
-          opacity: 0.87,
+          opacity: 0.9,
           backdropFilter: 'saturate(180%) blur(20px)'
         }}
       >
