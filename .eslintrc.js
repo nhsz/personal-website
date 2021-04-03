@@ -51,7 +51,7 @@ module.exports = {
         ],
         'prettier/prettier': ['error', {}, { usePrettierrc: true }],
         complexity: [2, 3],
-        'max-statements': [2, 7],
+        'max-statements': [2, 8],
         'max-statements-per-line': [2, { max: 1 }],
         'max-nested-callbacks': [2, 2],
         'max-depth': [2, { max: 2 }],
