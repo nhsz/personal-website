@@ -56,11 +56,5 @@ export const projects: ProjectData[] = [
     title: 'list-range',
     description: 'ES6 implementation of Python built-in `range()` function.',
     stack: 'JavaScript'
-  },
-  {
-    repoUrl: 'https://www.npmjs.com/package/char',
-    title: 'char',
-    description: 'ES6 implementation of Python built-in `chr()` function.',
-    stack: 'JavaScript'
   }
 ];
