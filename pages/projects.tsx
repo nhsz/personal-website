@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import { FC, KeyboardEvent, useEffect, useState } from 'react';
 import { Project } from '../components';
@@ -16,6 +17,22 @@ const tilesExtraStyle = [
   'sm:w-48',
   'sm:w-48'
 ];
+
+const container = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      delayChildren: 0.1,
+      staggerChildren: 0.2
+    }
+  }
+};
+
+const item = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 }
+};
 
 const Projects: FC = () => {
   const [pianoMode, setPianoMode] = useState(false);
@@ -54,17 +71,24 @@ const Projects: FC = () => {
           </div> */}
         </div>
 
-        <section className='flex justify-center sm:justify-start flex-wrap'>
+        <motion.section
+          className='flex justify-center sm:justify-start flex-wrap'
+          variants={container}
+          initial='hidden'
+          animate='visible'
+        >
           {projectsData.map((props, i) => (
-            <Project
-              key={props.repoUrl}
-              {...props}
-              css={tilesExtraStyle[i]}
-              tone={getRandomTone()}
-              pianoMode={pianoMode}
-            />
+            <motion.article key={i} className='item' variants={item}>
+              <Project
+                key={props.repoUrl}
+                {...props}
+                css={tilesExtraStyle[i]}
+                tone={getRandomTone()}
+                pianoMode={pianoMode}
+              />
+            </motion.article>
           ))}
-        </section>
+        </motion.section>
       </section>
     </div>
   );
