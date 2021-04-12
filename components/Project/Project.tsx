@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from 'react';
-import { playTone } from '../../utils';
 
 interface Props {
   repoUrl: string;
@@ -7,8 +6,6 @@ interface Props {
   title: string;
   description: string;
   stack: string;
-  tone: string;
-  pianoMode: boolean;
 }
 
 const bgColorsList = [
@@ -27,7 +24,7 @@ const bgColorsList = [
   'bg-blue-700'
 ];
 
-const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pianoMode }) => {
+const Project: FC<Props> = ({ repoUrl, css, title, description, stack }) => {
   const [bgColor, setBgColor] = useState(
     bgColorsList[Math.floor(Math.random() * bgColorsList.length)]
   );
@@ -40,7 +37,6 @@ const Project: FC<Props> = ({ repoUrl, css, title, description, stack, tone, pia
   const paintGreen: VoidFunction = () => setBgColor('bg-green-500');
   const handleMouseHover: VoidFunction = () => {
     paintIndigo();
-    if (pianoMode) playTone(tone);
   };
 
   useEffect(() => {
