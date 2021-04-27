@@ -2,6 +2,12 @@ import { ProjectData } from '../types';
 
 export const projects: ProjectData[] = [
   {
+    repoUrl: 'https://github.com/nhsz/nextjs-ecommerce-poc',
+    title: 'nextjs-ecommerce-poc',
+    description: 'PoC built with NextJS, TypeScript, ChakraUI, Zustand and Contentful API.',
+    stack: 'NextJS, TypeScript, ChakraUI, Zustand, Contentful API'
+  },
+  {
     repoUrl: 'https://github.com/nhsz/trello-clone',
     title: 'trello-clone',
     description: 'An attempt to mimic the UI and main features of Trello.',
@@ -27,17 +33,17 @@ export const projects: ProjectData[] = [
     stack: 'HTML5 & TailwindCSS'
   },
   {
-    repoUrl: 'https://github.com/undefinedschool/payments-app',
-    title: 'payments-app',
-    description: 'Payments client app for the Full Stack JavaScript course.',
-    stack: 'Svelte & TailwindCSS'
-  },
-  {
     repoUrl: 'https://github.com/undefinedschool/payments-service',
     title: 'payments-service',
     description:
       'Microservice that generates the proper payment data for MercadoPago checkout, used on the Payments client app.',
     stack: "Node, Express & MercadoPago's API"
+  },
+  {
+    repoUrl: 'https://github.com/undefinedschool/payments-app',
+    title: 'payments-app',
+    description: 'Payments client app for the Full Stack JavaScript course.',
+    stack: 'Svelte & TailwindCSS'
   },
   {
     repoUrl: 'https://github.com/undefinedschool/mail-service',
@@ -50,11 +56,5 @@ export const projects: ProjectData[] = [
     title: 'personal-website',
     description: "My personal website, which you're visiting right now.",
     stack: 'NextJS, TypeScript & TailwindCSS'
-  },
-  {
-    repoUrl: 'https://www.npmjs.com/package/list-range',
-    title: 'list-range',
-    description: 'ES6 implementation of Python built-in `range()` function.',
-    stack: 'JavaScript'
   }
 ];

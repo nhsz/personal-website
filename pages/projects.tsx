@@ -5,15 +5,15 @@ import { Project } from '../components';
 import { projects as projectsData } from '../data';
 
 const tilesExtraStyle = [
-  'sm:w-56',
-  'sm:w-80 md:w-96',
-  'sm:w-48',
-  'sm:w-72',
-  'sm:w-56',
-  'sm:w-72',
-  'sm:w-56',
-  'sm:w-80',
-  'sm:w-64'
+  'sm:w-72', // e-commerce
+  'sm:w-56', // trello
+  'sm:w-80 md:w-80', // airbnb
+  'sm:w-52', // mentorship
+  'sm:w-72', // fccba-conf
+  'sm:w-80', // payments-service
+  'sm:w-64', // payments-app
+  'sm:w-56', // mail-service
+  'sm:w-80' // personal-website
 ];
 
 const container = {
