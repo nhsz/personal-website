@@ -5,7 +5,7 @@ import { Project } from '../components';
 import { projects as projectsData } from '../data';
 
 const tilesExtraStyle = [
-  'sm:w-60', // e-commerce
+  'md:w-60', // e-commerce
   'sm:w-60', // trello
   'sm:w-80 md:w-80', // airbnb
   'sm:w-48', // mentorship

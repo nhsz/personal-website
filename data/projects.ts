@@ -4,7 +4,8 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/nhsz/nextjs-ecommerce-poc',
     title: 'nextjs-ecommerce-poc',
-    description: 'e-commerce PoC for digital artwork.',
+    description:
+      'e-commerce PoC for digital artwork, with category filters, sorting & dynamic pagination.',
     stack: 'NextJS, TypeScript, ChakraUI, Zustand, Contentful API'
   },
   {
