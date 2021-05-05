@@ -4,8 +4,7 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/nhsz/nextjs-ecommerce-poc',
     title: 'nextjs-ecommerce-poc',
-    description:
-      'e-commerce PoC for digital artwork, with category filters, sorting & dynamic pagination.',
+    description: 'PoC for digital artwork, with category filters, sorting & dynamic pagination.',
     stack: 'NextJS, TypeScript, ChakraUI, Zustand, Contentful API'
   },
   {
@@ -17,7 +16,7 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/nhsz/airbnb-clone',
     title: 'airbnb-clone [WIP]',
-    description: 'App that recreates some of the main features of AirBnB. Not finished yet.',
+    description: 'Recreates some of the main features of AirBnB. Not finished yet.',
     stack:
       "React, TypeScript, ChakraUI, GraphQL, Node, Express, MongoDB, Google's Geocoding API & Stripe."
   },
@@ -37,7 +36,7 @@ export const projects: ProjectData[] = [
     repoUrl: 'https://github.com/undefinedschool/payments-service',
     title: 'payments-service',
     description:
-      'Microservice that generates the proper payment data for MercadoPago checkout, used on the Payments client app.',
+      'Generates the proper payment data for MercadoPago checkout, used on the Payments client app.',
     stack: "Node, Express & MercadoPago's API"
   },
   {
@@ -49,7 +48,7 @@ export const projects: ProjectData[] = [
   {
     repoUrl: 'https://github.com/undefinedschool/mail-service',
     title: 'mail-service',
-    description: 'Microservice that notifies a new payment via email.',
+    description: 'Notifies a new payment via email, used in the Full Stack JavaScript course.',
     stack: "Node, Express & SendGrid's API"
   },
   {
