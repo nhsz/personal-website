@@ -4,6 +4,18 @@ const RandomDetails: FC = () => {
   return (
     <section className='mb-10 text-gray-600 dark:text-gray-400 transition duration-100'>
       <p className='mb-4'>
+        Currently working as a Frontend Engineer for{' '}
+        <a
+          className='text-blue-600 hover:underline'
+          href='https://climate.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Climate's FieldView.
+        </a>{' '}
+      </p>
+
+      <p className='mb-4'>
         Also, I&#39;m a{' '}
         <a
           className='text-blue-600 hover:underline'
