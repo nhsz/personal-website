@@ -4,7 +4,7 @@ const MiniBio: FC = () => {
   return (
     <section className='transition duration-100'>
       <p className='text-lg md:text-xl mb-6 font-light'>
-        Hi! I&#39;m a <strong className='font-medium'>Full Stack Software Engineer</strong> based in
+        Hi! I&#39;m a <strong className='font-medium'>Web Developer</strong> based in
         Buenos Aires 🇦🇷, <strong className='font-medium'>mentor</strong> and{' '}
         <strong className='font-medium'>community builder</strong>, specializing in building apps
         with <strong className='font-medium keyword-js dark:text-gray-200'>JavaScript</strong>,{' '}
