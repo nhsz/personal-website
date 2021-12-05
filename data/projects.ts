@@ -21,7 +21,7 @@ export const projects: ProjectData[] = [
   //     "React, TypeScript, ChakraUI, GraphQL, Node, Express, MongoDB, Google's Geocoding API & Stripe."
   // },
   {
-    repoUrl: 'https://github.com/undefinedschool/mentorship',
+    repoUrl: 'https://github.com/undefinedschool/undefinedschool.io',
     title: 'mentorship',
     description: 'Website for the Full Stack JavaScript mentorship program.',
     stack: 'HTML5 & TailwindCSS'
