@@ -5,15 +5,10 @@ import { Project } from '../components';
 import { projects as projectsData } from '../data';
 
 const tilesExtraStyle = [
-  'sm:w-72', // e-commerce
-  'sm:w-52', // trello
-  'sm:w-80', // airbnb
-  'sm:w-60', // mentorship
-  'sm:w-72', // fccba-conf
-  'sm:w-72', // payments-service
-  'sm:w-64', // payments-app
-  'sm:w-60', // mail-service
-  'sm:w-80' // personal-website
+  'sm:w-96', // e-commerce
+  'sm:w-80', // trello
+  'sm:w-72', // mentorship
+  'sm:w-96' // personal-website
 ];
 
 const container = {
