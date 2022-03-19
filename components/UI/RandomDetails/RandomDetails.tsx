@@ -4,8 +4,8 @@ const RandomDetails: FC = () => {
   return (
     <section className='mb-10 text-gray-600 dark:text-gray-400 transition duration-100'>
       <p className='mb-16'>
-        <span className='text-black dark:text-white transition duration-100'>⟠</span> Currently
-        working as a Web Developer for the{' '}
+        <span className='text-black dark:text-white transition duration-100'>⟠</span> I'm part of
+        the Core Web Team at the{' '}
         <a
           className='text-black dark:text-white transition duration-100 font-semibold hover:underline'
           href='https://ethereum.org/'
