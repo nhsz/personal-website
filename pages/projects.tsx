@@ -6,10 +6,9 @@ import { projects as projectsData } from '../data';
 
 const tilesExtraStyle = [
   'sm:w-96', // esp
-  'sm:w-80', // e-commerce
-  'sm:w-72', // trello
-  'sm:w-72', // mentorship
-  'sm:w-64' // personal-website
+  'sm:w-96', // e-commerce
+  'sm:w-80', // trello
+  'sm:w-80' // personal-website
 ];
 
 const container = {

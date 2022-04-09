@@ -21,12 +21,6 @@ export const projects: ProjectData[] = [
     stack: 'React, TypeScript & styled-components'
   },
   {
-    repoUrl: 'https://github.com/undefinedschool/undefinedschool.io',
-    title: 'mentorship',
-    description: 'Website for the Full Stack JavaScript mentorship program.',
-    stack: 'HTML5 & TailwindCSS'
-  },
-  {
     repoUrl: 'https://github.com/nhsz/personal-website',
     title: 'personal-website',
     description: "My personal website, which you're visiting right now.",
