@@ -47,9 +47,9 @@ const RandomDetails: FC = () => {
         </p>
 
         <p className='text-sm'>
-          Some things I love: coffee ☕, chocolate 🍫, pizza 🍕, ice-cream 🍨, open-source code 💻,
-          hard-rock/metal music (and playing the guitar 🎸), Daredevil, The Witcher, thrillers,
-          horror movies/series 🧟, etc.
+          Some things I love: coffee ☕, chocolate 🍫, pizza 🍕, ice-cream 🍨, open-source 💻,
+          Ethereum ⟠, hard-rock/metal music (and playing the guitar 🎸), Daredevil, The Witcher,
+          thrillers, horror movies/series 🧟, etc.
         </p>
       </section>
     </section>
